@@ -1,0 +1,170 @@
+
+
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 20px;
+    background-color: rgb(216, 182, 176);
+    font-family: sans-serif;
+    font-size: 24px;
+  
+}
+
+header{
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: antiquewhite;
+}
+
+header h1{
+    text-align: center;
+    color: red;
+   
+}
+
+#sidebar{
+    height: 0vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    margin-left: 10px;
+
+
+}
+#sidebar button{
+   
+    background-color: rgb(245, 237, 228);
+    padding: 15px;
+    padding-left: 10px;
+    text-align: left;
+    outline: none;
+    margin: 0px;
+    border-color: rgb(245, 237, 228);
+    cursor: pointer;
+    border-style:none ;
+    font-size: 24px;
+
+}
+#sidebar button:hover{
+    background-color: rgb(156, 156, 142);
+
+}
+
+#main{
+    height: 75vh;
+    overflow-y: scroll;
+    padding-left: 20px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    font-size: 24px;
+
+    
+
+}
+
+#main div{
+    display: grid;
+    width: 50%;
+}
+
+input{
+    font-size: 24px;
+    padding: 5px;
+}
+
+select{
+    padding: 5px;
+    font-size: 24px;
+
+}
+
+#save{
+   
+    background-color: rgb(202, 202, 182);
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 24px;
+
+}
+#save:hover{
+    background-color: rgb(150, 150, 127);
+
+}
+
+
+button:hover{
+    background-color: rgb(150, 150, 128);
+
+}
+#discription{
+    font-size: 24px;
+}
+
+.project {
+    /* border: 3px solid yellow; */
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+
+}
+.project h2 {
+   padding: 04px;
+   margin: 04px;
+   font-size: 24px;
+
+   
+}
+/* .todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+.todo-list li {
+    margin: 0px 0;
+}
+.add-todo {
+    margin-top: 10px;
+} */
+
+#projectname{
+    margin: 10px;
+    font-size: 24px;
+
+}
+
+#saveproject{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+    background-color: rgb(202, 202, 182);
+    font-size: 24px;
+
+
+
+}
+#saveproject:hover{
+    background-color: rgb(150, 150, 128);
+
+}
+
+.todo-list{
+    color: rgb(62, 153, 160);
+    margin: 0;
+    margin-left: 30px;
+    padding: 5px;
+}
